@@ -38,7 +38,22 @@
   top: 25%;
   margin-left: 38%;
   border-radius: 10px;
-  border-left: 5px solid blue;
+  /* border-left: 5px solid blue; */
   padding: 40px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.card-details::after {
+  content: "";
+  height: 120px;
+  width: 10px;
+  left: 0;
+  top: 0;
+  background: rgb(243, 155, 124);
+  background: linear-gradient(
+    118deg,
+    rgba(243, 155, 124, 1) 53%,
+    rgba(247, 200, 9, 1) 56%
+  );
+  position: absolute;
 }
