@@ -88,6 +88,11 @@
   margin-top: 10px;
 }
 
+.card-info img:hover {
+  border: 1px solid #ff4785;
+  transform: scale(1.2);
+}
+
 .icons {
   display: grid;
   grid-template-columns: repeat(2, 160px);
